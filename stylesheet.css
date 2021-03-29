@@ -1,0 +1,441 @@
+/* Ketik code anda dibaris terbawah */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 510px 0 100px 0;
+  background-image: url(assets/images/webdev.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(32, 153, 177, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-wrapper .heading h2{
+   font-weight: bold;
+
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message-wrapper .heading h2{
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Ketik code Anda dibaris bawah */
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.project {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+ 
+}
+
+.project .heading h2{
+   font-weight: bold;
+}
+
+.project_content {
+  float: left;
+  width: 10%;
+  margin-right: 20% ;
+  margin-bottom:20px;
+
+
+}
+
+.project-icon {
+  position: relative;
+}
+
+.box-address {
+    float: left;
+    width: 100%;
+    /*background-color: #121212;*/
+    background: linear-gradient(#000046, #1cb5e0);  
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.box-address-container {
+    float: left;
+    width: 80%;
+    margin: 60px 10%;
+    display: table;
+}
+
+.box-address-content {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.address-content {
+    width: 40%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.address-desc {
+    float: left;
+    width: 100%;
+    margin: 0 0 24px 0;
+}
+
+.address-desc .address-img {
+    float: left;
+    width: 5%;
+    max-width: 24px;
+}
+
+.address-desc .address-img img {
+    width: 100%;
+}
+
+.address-detail {
+    float: left;
+    width: 95%;
+}
+
+.address-content h2 {
+    font-family: DMSans-Bold;
+    font-size: 42px;
+    line-height: 81px;
+    margin: 0 0 15px 0;
+}
+
+.address-content p {
+    font-family: DMSans-Regular;
+    font-size: 14px;
+    /*line-height: 31px;*/
+    margin: 0 0 0 15px;
+}
+
+.box-address-map {
+    width: 100%;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.box-address-img {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-address-img img {
+    float: left;
+    width: 100%;
+    margin: 0 0 0 2.4%;
+}
+
+.content-map {
+    position: absolute;
+    transform: translate(0px, 24%);
+    width: 74%;
+    height: 73%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+/* pokemone pictures */
+
+.gambar_animasi {
+  width: 30%;
+  height: 40%;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overlay */
+  box-shadow: 0 0 0 100px inset, 0 0 5px grey;
+  /* hover out transition */
+  transition: box-shadow 1s;
+  float: left;
+  /*margin: 10px;*/
+  margin-right: 50px ;
+  margin-bottom:20px;
+}
+
+
+/* pokemone names */
+
+.gambar_animasi::after {
+  width: 80%;
+  /*height: 80%;*/
+  display: block;
+  white-space: pre;
+  font: 15pt 'sigmar one';
+  color: white;
+  border: 2px solid;
+  text-align: center;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* hover out transition */
+  transition: opacity 1s .5s;
+}
+
+
+/* reveal pokemone picture on hover */
+
+.gambar_animasi:hover {
+  box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+  transition: box-shadow 1s;
+}
+
+
+/* hide pokemone name on hover */
+
+.gambar_animasi:hover::after {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+#project1 {
+  background-image: url(assets/images/character.jpg);
+  color: rgba(71, 121, 94, .9);
+}
+
+#project1::after {
+  content: 'Ecommerce';
+}
+
+#project2 {
+  background-image: url(assets/images/gleblu.jpg);
+  color: rgba(221, 86, 63, .9);
+}
+
+#project2::after {
+  content: 'Company Profile'
+}
+
+#project3 {
+  background-image: url(assets/images/sislaf.jpg);
+  color: rgba(65, 102, 114, .9);
+}
+
+#project3::after {
+  content: 'Travels Blog'
+}
+
+#project4 {
+  background-image: url(assets/images/woodo.jpg);
+  color: rgba(179, 152, 98, .9);
+}
+
+#project4::after {
+  content: 'Ecommerce'
+}
+
+#wrapper {
+  width: 1000px;
+  height: 500px;
+  /*margin:  auto;*/
+}
